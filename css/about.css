@@ -1,0 +1,1312 @@
+/* ========================================
+   ABOUT CSS - SAVORA
+   ======================================== */
+
+/* ABOUT HEADER */
+
+.about-header {
+    padding: 100px 6% 85px;
+    background-image: url("../asset/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.about-header .section-label {
+    margin-bottom: 16px;
+    color: #9b7653;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.about-header h1 {
+    margin-bottom: 25px;
+    color: #2d2926;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.about-header-description {
+    max-width: 680px;
+    margin: 0 auto;
+    color: #716a64;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+
+/* WHAT YOU CAN DISCOVER */
+
+.about-discover {
+    padding: 100px 6% 110px;
+    background-color: #f8f5f0;
+}
+
+.about-section-heading {
+    max-width: 700px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.about-section-heading .section-label {
+    margin-bottom: 10px;
+    color: #9b7653;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+
+.about-section-heading h2 {
+    margin-bottom: 14px;
+    color: #2d2926;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.about-section-heading p:last-child {
+    color: #716a64;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* FEATURE GRID */
+
+.about-feature-grid {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+/* FEATURE CARD */
+
+.about-feature-card {
+    padding: 38px 30px 35px;
+    background-color: #ffffff;
+    border: 1px solid #e4dcd3;
+    text-align: center;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+/* FEATURE ICON */
+
+.about-feature-card .material-symbols-outlined {
+    margin-bottom: 20px;
+    color: #9b7653;
+    font-size: 34px;
+}
+
+
+/* FEATURE TITLE */
+
+.about-feature-card h3 {
+    margin-bottom: 12px;
+    color: #2d2926;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+/* FEATURE DESCRIPTION */
+
+.about-feature-card p {
+    color: #716a64;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* WHY SAVORA */
+
+.about-purpose {
+    padding: 105px 6%;
+    background-color: #292623;
+    color: #ffffff;
+    text-align: center;
+}
+
+.about-purpose-content {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.about-purpose .section-label {
+    margin-bottom: 18px;
+    color: #c69b70;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+
+.about-purpose h2 {
+    margin-bottom: 25px;
+    color: #f4eee8;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.about-purpose p:last-child {
+    color: #bdb4ab;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+
+/* SHARE YOUR TASTE */
+
+.share-taste {
+    position: relative;
+    padding: 90px 60px 75px;
+    background: #f1ebe3;
+    color: #302b28;
+    overflow: hidden;
+}
+
+
+/* DECORATIVE BACKGROUND */
+
+.share-taste::before {
+    content: "";
+    position: absolute;
+    top: -150px;
+    left: -100px;
+    width: 260px;
+    height: 260px;
+    border: 1px solid rgba(198, 155, 112, 0.18);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.share-taste::after {
+    content: "";
+    position: absolute;
+    right: -90px;
+    bottom: -130px;
+    width: 220px;
+    height: 220px;
+    border: 1px solid rgba(198, 155, 112, 0.15);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+
+/* HEADING */
+
+.taste-heading {
+    position: relative;
+    z-index: 2;
+    max-width: 850px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.taste-label {
+    display: inline-block;
+    margin-bottom: 18px;
+    color: #b27d4e;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.taste-heading h2 {
+    margin: 0;
+    color: #302b28;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.taste-heading h2 em {
+    color: #b27d4e;
+    font-weight: 400;
+}
+
+.taste-heading p {
+    margin: 18px auto 0;
+    color: #766d67;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.taste-decoration {
+    margin-top: 18px;
+    color: #c69b70;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.taste-decoration .material-symbols-outlined {
+    font-size: 17px;
+}
+
+.taste-label .material-symbols-outlined{
+    font-size: 14px;
+}
+
+/* CATEGORY WRAPPER */
+
+.category-wrapper {
+    position: relative;
+    z-index: 3;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 20px 58px;
+    background: rgba(255, 252, 247, 0.72);
+    border: 1px solid #e1d3c4;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(80, 60, 40, 0.04);
+}
+
+
+/* HORIZONTAL CATEGORY TRACK */
+
+.category-track {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    padding: 2px 2px 10px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.category-track::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* CATEGORY CARD */
+
+.category-card {
+    position: relative;
+    flex: 0 0 130px;
+    min-height: 145px;
+    box-sizing: border-box;
+    padding: 14px 10px;
+    background: #fffdf9;
+    border: 1px solid #e1d3c4;
+    border-radius: 16px;
+    color: #302b28;
+    cursor: pointer;
+    text-align: center;
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+}
+
+.category-card:hover {
+    transform: none;
+    border-color: #c69b70;
+    box-shadow: 0 8px 20px rgba(100, 75, 55, 0.08);
+}
+
+.category-card.active {
+    background: #fff8f0;
+    border: 1px solid #b27d4e;
+    box-shadow:
+        0 0 0 1px rgba(178, 125, 78, 0.18),
+        0 8px 20px rgba(100, 75, 55, 0.08);
+}
+
+
+/* CATEGORY IMAGE */
+
+.category-image {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 12px;
+    background: #f3e9de;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category-card:hover .category-image {
+    transform: scale(1.05);
+}
+
+.category-card.active .category-image {
+    background: #f0ddca;
+}
+
+
+/* CATEGORY NAME */
+
+.category-name {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+
+/* CATEGORY CHECK */
+
+.category-check {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 22px;
+    height: 22px;
+    background: #b27d4e;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 12px;
+    opacity: 0;
+    transform: scale(0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s ease;
+}
+
+.category-card.active .category-check {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* CATEGORY ARROWS */
+
+.category-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
+    background: #fffdf9;
+    border: none;
+    border-radius: 50%;
+    color: #8d684b;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(80, 60, 40, 0.12);
+    transition: background 0.25s ease, color 0.25s ease, transform 0.2s ease, opacity 0.25s ease;
+}
+
+.category-arrow:not(:disabled):hover {
+    background: #c69b70;
+    color: #ffffff;
+    transform: translateY(-50%) scale(1.05);
+}
+
+.category-arrow:disabled {
+    background: #eee7df;
+    color: #c8bdb3;
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 0.75;
+}
+
+.category-prev {
+    left: 12px;
+}
+
+.category-next {
+    right: 12px;
+}
+
+.category-arrow.hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.category-arrow .material-symbols-outlined {
+    font-size: 20px;
+}
+
+/* SCROLL INDICATOR */
+
+.category-scroll-info {
+    position: relative;
+    z-index: 2;
+    max-width: 300px;
+    margin: 12px auto 42px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #b49b87;
+    font-size: 11px;
+}
+
+.scroll-line {
+    position: relative;
+    flex: 1;
+    height: 5px;
+    background: #e3d7ca;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* IMPORTANT:
+   ID sudah disamakan dengan HTML + JS
+*/
+
+#scroll-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background: #c69b70;
+    border-radius: 10px;
+    transition: width 0.2s ease;
+}
+
+
+/* FORM CARD */
+
+.taste-form {
+    position: relative;
+    z-index: 2;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 35px 40px;
+    display: flex;
+    gap: 35px;
+    background: rgba(255, 253, 249, 0.92);
+    border: 1px solid #dfd0c0;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(90, 65, 45, 0.06);
+}
+
+
+/* FORM ILLUSTRATION */
+
+.form-illustration {
+    width: 160px;
+    flex-shrink: 0;
+    padding-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.illustration-circle {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    background: #fffaf4;
+    border: 1px dashed #c69b70;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration-circle img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.illustration-circle span:first-of-type {
+    position: absolute;
+    top: 12px;
+    left: 25px;
+    color: #c69b70;
+    font-size: 14px;
+}
+
+.illustration-circle span:last-of-type {
+    position: absolute;
+    right: 23px;
+    bottom: 13px;
+    color: #b27d4e;
+    font-size: 17px;
+}
+
+/* FORM CONTENT */
+
+.form-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.form-heading {
+    margin-bottom: 24px;
+}
+
+.form-heading h3 {
+    margin: 0 0 7px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.form-heading h3 span {
+    color: #c69b70;
+    font-size: 13px;
+}
+
+.form-heading p {
+    margin: 0;
+    color: #82766e;
+    font-size: 13px;
+}
+
+
+/* FORM ROW */
+
+.form-row {
+    display: flex;
+    gap: 18px;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 0;
+    margin-bottom: 17px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #514943;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 13px;
+}
+
+.form-group label b {
+    color: #b27d4e;
+}
+
+.form-group label small {
+    color: #a49a93;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+
+/* INPUT / SELECT / TEXTAREA */
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: #fffdfa;
+    border: 1px solid #d8cabb;
+    border-radius: 10px;
+    color: #4b433e;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    outline: none;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.form-group input,
+.form-group select {
+    height: 46px;
+    padding: 0 14px;
+}
+
+.form-group textarea {
+    height: 105px;
+    padding: 14px;
+    resize: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #aaa19a;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #c69b70;
+    box-shadow: 0 0 0 3px rgba(198, 155, 112, 0.1);
+}
+
+
+/* TEXTAREA */
+
+.textarea-group {
+    position: relative;
+}
+
+.character-count {
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+    color: #aaa099;
+    font-size: 11px;
+}
+
+
+/* FORM BOTTOM */
+
+.form-bottom {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.share-button {
+    padding: 13px 25px;
+    background: #b27d4e;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 0 7px 18px rgba(120, 80, 40, 0.15);
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease;
+}
+
+.share-button:hover {
+    background: #9f6d42;
+    transform: translateY(-2px);
+}
+
+.button-icon {
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+.button-arrow {
+    margin-left: 12px;
+    font-size: 17px;
+}
+
+.form-note {
+    margin: 0;
+    color: #968a82;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.form-note .material-symbols-outlined {
+    font-size: 12px;
+}
+
+
+/* FOOTER QUOTE */
+
+.taste-footer {
+    position: relative;
+    z-index: 2;
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #96745a;
+    font-size: 13px;
+}
+
+.taste-footer span {
+    color: #c69b70;
+    letter-spacing: 2px;
+}
+
+
+/* ==================================================
+   RESPONSIVE
+   ================================================== */
+
+
+/* LAPTOP 1200px ke bawah */
+
+@media (max-width: 1200px) {
+
+    .about-header {
+        padding: 90px 5% 75px;
+    }
+
+    .about-discover {
+        padding: 90px 5% 100px;
+    }
+
+    .about-purpose {
+        padding: 90px 5%;
+    }
+
+    .share-taste {
+        padding: 80px 40px 65px;
+    }
+
+    .category-wrapper {
+        max-width: 1000px;
+    }
+
+    .taste-form {
+        max-width: 950px;
+    }
+}
+
+
+/* TABLET 768px - 991px */
+
+@media (max-width: 991px) {
+
+    /* HEADER */
+
+    .about-header {
+        padding: 75px 6% 65px;
+    }
+
+    .about-header h1 {
+        font-size: 44px;
+    }
+
+    .about-header-description {
+        max-width: 600px;
+        font-size: 14px;
+    }
+
+
+    DISCOVER
+
+    .about-discover {
+        padding: 75px 6% 85px;
+    }
+
+    .about-section-heading {
+        margin-bottom: 45px;
+    }
+
+    .about-section-heading h2 {
+        font-size: 36px;
+    }
+
+    .about-feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .about-feature-card {
+        padding: 32px 25px;
+    }
+
+
+    /* WHY SAVORA */
+
+    .about-purpose {
+        padding: 80px 7%;
+    }
+
+    .about-purpose h2 {
+        font-size: 37px;
+    }
+
+    .about-purpose p:last-child {
+        font-size: 14px;
+    }
+
+
+    /* SHARE TASTE */
+
+    .share-taste {
+        padding: 70px 30px 60px;
+    }
+
+    .taste-heading {
+        margin-bottom: 35px;
+    }
+
+    .taste-heading h2 {
+        font-size: 40px;
+    }
+
+    .category-wrapper {
+        padding: 18px 50px;
+    }
+
+    .category-track {
+        gap: 15px;
+    }
+
+    .category-card {
+        flex-basis: 120px;
+        min-height: 138px;
+    }
+
+    .category-image {
+        width: 65px;
+        height: 65px;
+    }
+
+
+    /* FORM */
+
+    .taste-form {
+        gap: 25px;
+        padding: 30px;
+    }
+
+    .form-illustration {
+        width: 135px;
+    }
+
+    .illustration-circle {
+        width: 110px;
+        height: 110px;
+    }
+
+    .illustration-circle img {
+        width: 78px;
+        height: 78px;
+    }
+
+    .form-row {
+        gap: 14px;
+    }
+}
+
+
+/* HP BESAR 576px - 767px */
+
+@media (max-width: 767px) {
+
+    /* HEADER */
+
+    .about-header {
+        padding: 60px 6% 55px;
+    }
+
+    .about-header .section-label {
+        font-size: 10px;
+        letter-spacing: 2.5px;
+    }
+
+    .about-header h1 {
+        margin-bottom: 20px;
+        font-size: 36px;
+        line-height: 1.25;
+    }
+
+    .about-header-description {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+
+    /* DISCOVER */
+
+    .about-discover {
+        padding: 60px 6% 70px;
+    }
+
+    .about-section-heading {
+        margin-bottom: 35px;
+    }
+
+    .about-section-heading h2 {
+        font-size: 32px;
+    }
+
+    .about-section-heading p:last-child {
+        font-size: 13px;
+    }
+
+    .about-feature-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    .about-feature-card {
+        padding: 22px 7px;
+    }
+
+    .about-feature-card .material-symbols-outlined {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .about-feature-card h3 {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .about-feature-card p {
+        font-size: 10px;
+        line-height: 1.5;
+    }
+
+    /* WHY SAVORA */
+
+    .about-purpose {
+        padding: 65px 7%;
+    }
+
+    .about-purpose h2 {
+        font-size: 34px;
+    }
+
+    .about-purpose p:last-child {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+
+    /* SHARE TASTE */
+
+    .share-taste {
+        padding: 60px 18px 50px;
+    }
+
+    .taste-label {
+        margin-bottom: 14px;
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .taste-heading h2 {
+        font-size: 34px;
+    }
+
+    .taste-heading p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .taste-decoration {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+
+    /* CATEGORY */
+
+    .category-wrapper {
+        padding: 15px 45px;
+        border-radius: 15px;
+    }
+
+    .category-track {
+        gap: 12px;
+        padding-bottom: 8px;
+    }
+
+    .category-card {
+        flex-basis: 110px;
+        min-height: 130px;
+        padding: 12px 8px;
+        border-radius: 14px;
+    }
+
+    .category-image {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .category-name {
+        font-size: 14px;
+    }
+
+    .category-check {
+        top: 6px;
+        right: 6px;
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
+    }
+
+    .category-arrow {
+        width: 36px;
+        height: 36px;
+        font-size: 27px;
+    }
+
+    .category-prev {
+        left: 7px;
+    }
+
+    .category-next {
+        right: 7px;
+    }
+
+    .category-scroll-info {
+        max-width: 240px;
+        margin-bottom: 32px;
+    }
+
+    .category-scroll-info .material-symbols-outlined{
+        font-size: 18px;
+    }
+
+
+    /* FORM */
+
+    .taste-form {
+        padding: 25px 20px;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 17px;
+    }
+
+    .form-illustration {
+        width: 100%;
+        padding-top: 0;
+        align-items: center;
+    }
+
+    .illustration-circle {
+        width: 105px;
+        height: 105px;
+    }
+
+    .illustration-circle img {
+        width: 74px;
+        height: 74px;
+    }
+
+    .form-heading {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .form-heading h3 {
+        font-size: 23px;
+    }
+
+    .form-heading p {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-bottom {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .share-button {
+        width: 100%;
+        padding: 13px 20px;
+    }
+
+    .form-note {
+        text-align: center;
+    }
+
+
+    /* QUOTE */
+
+    .taste-footer {
+        gap: 10px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .taste-footer span {
+        display: none;
+    }
+}
+
+
+/* HP KECIL 575px ke bawah */
+
+@media (max-width: 575px) {
+    .about-feature-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+
+    .about-feature-card {
+        padding: 20px 6px;
+    }
+
+    .about-feature-card .material-symbols-outlined {
+        margin-bottom: 8px;
+        font-size: 22px;
+    }
+
+    .about-feature-card h3 {
+        margin-bottom: 6px;
+        font-size: 13px;
+        line-height: 1.25;
+    }
+
+    .about-feature-card p {
+        font-size: 9px;
+        line-height: 1.45;
+    }
+
+    /* WHY SAVORA */
+    .about-purpose {
+        padding: 55px 20px;
+    }
+
+    .about-purpose h2 {
+        font-size: 30px;
+    }
+
+    .about-purpose p:last-child {
+        font-size: 12.5px;
+    }
+
+
+    /* SHARE */
+    .share-taste {
+        padding: 50px 12px 45px;
+    }
+
+    .taste-heading {
+        margin-bottom: 30px;
+    }
+
+    .taste-heading h2 {
+        font-size: 30px;
+    }
+
+    .taste-heading p {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+
+    /* CATEGORY */
+    .category-wrapper {
+        padding: 12px 39px;
+    }
+
+    .category-card {
+        flex-basis: 100px;
+        min-height: 120px;
+        padding: 10px 6px;
+    }
+
+    .category-image {
+        width: 55px;
+        height: 55px;
+        margin-bottom: 9px;
+    }
+
+    .category-name {
+        font-size: 13px;
+    }
+
+    .category-arrow {
+        width: 32px;
+        height: 32px;
+        font-size: 24px;
+    }
+
+    .category-prev {
+        left: 5px;
+    }
+
+    .category-next {
+        right: 5px;
+    }
+
+    .category-scroll-info {
+        max-width: 210px;
+        margin-top: 10px;
+        margin-bottom: 28px;
+    }
+
+    /* FORM */
+    .taste-form {
+        padding: 22px 16px;
+    }
+
+    .illustration-circle {
+        width: 95px;
+        height: 95px;
+    }
+
+    .illustration-circle img {
+        width: 67px;
+        height: 67px;
+    }
+
+    .illustration-circle span {
+        top: 9px;
+        left: 18px;
+    }
+
+    .illustration-circle small {
+        right: 17px;
+        bottom: 10px;
+    }
+
+    .form-heading h3 {
+        font-size: 21px;
+    }
+
+    .form-heading p {
+        font-size: 11px;
+    }
+
+    .form-group label {
+        font-size: 12px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 12px;
+    }
+
+    .form-group input,
+    .form-group select {
+        height: 44px;
+    }
+
+    .form-group textarea {
+        height: 100px;
+    }
+
+    .share-button {
+        font-size: 12px;
+    }
+
+    .form-note {
+        font-size: 10px;
+    }
+
+    /* QUOTE */
+    .taste-footer {
+        font-size: 10px;
+    }
+}

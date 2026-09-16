@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- BASIC INFORMATION -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAVORA | Recipe Detail</title>
+
+    <!-- LOGO -->
+    <link rel="icon" type="image/png" href="../asset/logob.png">
+
+    <!-- GOOGLE MATERIAL SYMBOLS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400,0,0">
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- CSS EXTERNAL -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/recipe-detail.css">
+</head>
+
+<body>
+    <!-- LOGO -->
+    <div class="logo-area">
+        <a href="../index.html" class="navbar-logo">
+            <img src="../asset/Logo.png" alt="SAVORA">
+        </a>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="navbar-menu">
+            <a href="../index.html" class="navbar-link">Home</a>
+            <a href="recipes.html" class="navbar-link active">Recipes</a>
+            <a href="about.html" class="navbar-link">About</a>
+            <form class="navbar-search-form">
+                <input type="text" class="navbar-search" id="global-search" placeholder="Search recipes..." aria-label="Search recipes">
+            </form>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- LOADING -->
+        <p id="detail-loading" class="detail-loading">Loading recipe...</p>
+
+        <!-- RECIPE DETAIL -->
+        <section id="recipe-detail" class="recipe-detail">
+            <!-- HERO RECIPE -->
+            <div class="recipe-detail-hero">
+                <!-- IMAGE -->
+                <div class="detail-image">
+                    <img id="detail-image" src="" alt="">
+                </div>
+
+                <!-- INFORMATION -->
+                <div class="detail-information">
+                    <a href="recipes.html" class="back-link">
+                        <span class="material-symbols-outlined">arrow_back</span>
+                        Back to Recipes
+                    </a>
+                    <p id="detail-category" class="detail-category"></p>
+                    <h1 id="detail-name" class="detail-name"></h1>
+                    <p id="detail-area" class="detail-area"></p>
+
+                    <div class="detail-meta">
+                        <div class="meta-item">
+                            <span class="material-symbols-outlined">restaurant</span>
+                            <span id="meta-category"></span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="material-symbols-outlined">public</span>
+                            <span id="meta-area"></span>
+                        </div>
+                    </div>
+
+                    <a id="youtube-link" class="youtube-link" href="#" target="_blank">
+                        <span class="material-symbols-outlined">play_circle</span>
+                        Watch Recipe Video
+                    </a>
+                </div>
+            </div>
+
+            <!-- RECIPE CONTENT -->
+            <div class="recipe-content">
+                <!-- INGREDIENTS -->
+                <section class="ingredients-section">
+                    <div class="content-heading">
+                        <p class="section-label">WHAT YOU NEED</p>
+                        <h2>Ingredients</h2>
+                    </div>
+                    <div id="ingredients-container" class="ingredients-list"></div>
+                </section>
+
+                <!-- INSTRUCTIONS -->
+                <section class="instructions-section">
+                    <div class="content-heading">
+                        <p class="section-label">HOW TO MAKE IT</p>
+                        <h2>Instructions</h2>
+                    </div>
+                    <div id="instructions-container" class="instructions-list"></div>
+                </section>
+
+                <!-- SOURCE -->
+                <div id="source-container" class="source-container"></div>
+            </div>
+        </section>
+
+        <!-- ERROR -->
+        <section id="detail-error" class="detail-error">
+            <span class="material-symbols-outlined">restaurant</span>
+            <h2>Recipe Not Found</h2>
+            <p>We couldn't find the recipe you're looking for.</p>
+            <a href="recipes.html" class="primary-button">Explore Recipes</a>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- BRAND -->
+            <div class="footer-brand">
+                <img src="../asset/Logo.png" alt="SAVORA" class="footer-logo">
+                <p>
+                    Discover delicious recipes from around the world and find inspiration for your next meal.
+                </p>
+            </div>
+
+            <!-- MENU -->
+            <div class="footer-menu">
+                <h3>Menu</h3>
+                <a href="../index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="about.html">About</a>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <a href="https://www.instagram.com/rhmcrni/" target="_blank">
+                    <span class="material-symbols-outlined">photo_camera</span>
+                    Instagram
+                </a>
+                <a href="https://www.youtube.com/channel/UCtjh3zFFrDwfMd_iEVvbFhA" target="_blank">
+                    <span class="material-symbols-outlined">play_circle</span>
+                    YouTube
+                </a>
+                <a href="https://wa.me/621397394188" target="_blank">
+                    <span class="material-symbols-outlined">chat</span>
+                    WhatsApp
+                </a>
+                <a href="mailto: rchairani11@gmail.com" target="_blank">
+                    <span class="material-symbols-outlined">mail</span>
+                    Email
+                </a>
+            </div>
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 RAHMA CHAIRANI HARAHAP. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="../js/global.js"></script>
+    <script src="../js/recipe-detail.js"></script>
+</body>
+</html>
